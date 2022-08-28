@@ -1,0 +1,23 @@
+{
+  "name": "test-automation-task",
+  "version": "1.0.0",
+  "description": "test automation task for Productsup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "report": "allure generate allure-results/ --clean && allure open"
+  },
+  "author": "Tejeswar Patro",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/allure-reporter": "^7.23.0",
+    "@wdio/cli": "^7.23.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.23.0",
+    "@wdio/mocha-framework": "^7.23.0",
+    "@wdio/spec-reporter": "^7.23.0",
+    "chromedriver": "^104.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
